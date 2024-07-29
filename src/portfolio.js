@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '',
+  title: '',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Michael Leong',
+  role: 'Studying Computer Engineering & Computer Science @ USC',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    '',
+  resume: 'https://leongmichael.github.io/resume/resume.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/m-leong/',
+    github: 'https://github.com/leongmichael',
   },
 }
 
@@ -21,51 +21,51 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Canvas Final Grade Calculator',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Google Chrome Web extension that automatically fetches Canvas class grade and calculates the required score on your final exam to receive your desired grade.',
+    stack: ['Vite', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com/leongmichael/canvas-final-grade-calculator',
+    livePreview: 'https://chromewebstore.google.com/detail/canvas-final-grade-calcul/dmbbpohkjofcbbibpfjmhobfebgckihm',
   },
   {
-    name: 'Project 2',
+    name: 'Velocity Draft',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An application that creates a schedule for writing college application essays. Third place winning project in Onehacks III Hackathon',
+    stack: ['JavaScript', 'React', 'Firebase'],
+    sourceCode: 'https://github.com/shuklabhay/velocity-draft',
+    livePreview: 'https://devpost.com/software/velocitydraft',
   },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  "C++",
+  "Firebase",
+  "Flask",
+  "Git",
+  "GitHub Actions",
+  "Java",
+  "JavaScript",
+  "Matplotlib",
+  "MongoDB",
+  "Node.js",
+  "NumPy",
+  "Onshape",
+  "Pandas",
+  "Python",
+  "React.js",
+  "SQL",
+  "TensorFlow",
+  "TypeScript",
+  "Vite"
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'mtleong@usc.edu',
 }
 
 export { header, about, projects, skills, contact }

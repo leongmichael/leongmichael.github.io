@@ -10,13 +10,13 @@
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-primary: #268ff8;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #121420;
+  --clr-bg-alt: #4b4e64;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
