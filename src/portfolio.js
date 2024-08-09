@@ -41,8 +41,8 @@ const projects = [
     description:
       'Provides the ability to estimate the requirements for charging infrastructure and the related electrical demands.',
     stack: ['Javascript', 'Express', 'React', 'Node', 'MaterialUI', 'Python', 'NumPy', 'Pandas'],
-    sourceCode: 'https://github.com/shuklabhay/velocity-draft',
-    livePreview: 'https://devpost.com/software/velocitydraft',
+    sourceCode: 'https://github.com/rongxinyin/ev-infrastructure-tool',
+    livePreview: 'https://github.com/rongxinyin/ev-infrastructure-tool',
   },
 ]
 
