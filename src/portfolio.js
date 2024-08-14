@@ -1,11 +1,9 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: '',
   title: '',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Michael Leong',
   role: 'Studying Computer Engineering & Computer Science @ USC',
   description:
@@ -18,12 +16,10 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Canvas Final Grade Calculator',
     description:
-      'Google Chrome Web extension that automatically fetches Canvas class grade and calculates the required score on your final exam to receive your desired grade.',
+      'Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade.',
     stack: ['TypeScript', 'React', 'Node', 'MaterialUI'],
     sourceCode: 'https://github.com/leongmichael/canvas-final-grade-calculator',
     livePreview: 'https://chromewebstore.google.com/detail/canvas-final-grade-calcul/dmbbpohkjofcbbibpfjmhobfebgckihm',
@@ -39,7 +35,7 @@ const projects = [
   {
     name: 'Electric Vehicle Infrastrucure Tool',
     description:
-      'Provides the ability to estimate the requirements for charging infrastructure and the related electrical demands.',
+      'Provides the ability to estimate the requirements for charging infrastructure and the related electrical demands. Developed at Berkeley Lab.',
     stack: ['Javascript', 'Express', 'React', 'Node', 'MaterialUI', 'Python', 'NumPy', 'Pandas'],
     sourceCode: 'https://github.com/rongxinyin/ev-infrastructure-tool',
     livePreview: 'https://github.com/rongxinyin/ev-infrastructure-tool',
@@ -71,7 +67,6 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'mtleong@usc.edu',
 }
 
