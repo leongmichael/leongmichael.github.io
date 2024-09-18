@@ -30,7 +30,15 @@ const projects = [
       'Flexible application essay writing scheduler. Third place in Onehacks III Hackathon.',
     stack: ['TypeScript', 'React', 'Node', 'MaterialUI'],
     sourceCode: 'https://github.com/shuklabhay/velocity-draft',
-    livePreview: 'https://devpost.com/software/velocitydraft',
+    livePreview: 'https://shuklabhay.github.io/velocity-draft/',
+  },
+  {
+    name: 'Demand Flexibility Assessment Tool',
+    description:
+      'Web tool for small and medium buildings to assess demand flexibility, estimate electricity usage, and identify ways to cut costs during peak prices. Developed at Berkeley Lab.',
+    stack: ['Javascript', 'Express', 'React', 'Node', 'MaterialUI', 'Python', 'NumPy', 'Pandas'],
+    sourceCode: 'https://github.com/rongxinyin/ev-infrastructure-tool',
+    livePreview: '',
   },
   {
     name: 'Electric Vehicle Infrastrucure Tool',
@@ -38,7 +46,7 @@ const projects = [
       'Provides the ability to estimate the requirements for charging infrastructure and the related electrical demands. Developed at Berkeley Lab.',
     stack: ['Javascript', 'Express', 'React', 'Node', 'MaterialUI', 'Python', 'NumPy', 'Pandas'],
     sourceCode: 'https://github.com/rongxinyin/ev-infrastructure-tool',
-    livePreview: 'https://github.com/rongxinyin/ev-infrastructure-tool',
+    livePreview: '',
   },
 ]
 
