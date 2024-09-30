@@ -1,5 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import BiotechIcon from '@mui/icons-material/Biotech';
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -49,6 +50,18 @@ const About = () => {
                 rel="noopener noreferrer"
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.orcid && (
+              <a
+                href={social.orcid}
+                aria-label='orcid'
+                className='link link--icon'
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <BiotechIcon />
               </a>
             )}
           </>

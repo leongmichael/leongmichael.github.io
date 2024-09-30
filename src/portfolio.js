@@ -12,6 +12,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/m-leong/',
     github: 'https://github.com/leongmichael',
+    orcid: 'https://orcid.org/0009-0000-9011-0120'
   },
 }
 
@@ -37,11 +38,11 @@ const projects = [
     description:
       'Web tool for small and medium buildings to assess demand flexibility, estimate electricity usage, and identify ways to cut costs during peak prices. Developed at Berkeley Lab.',
     stack: ['Javascript', 'Express', 'React', 'Node', 'MaterialUI', 'Python', 'NumPy', 'Pandas'],
-    sourceCode: 'https://github.com/rongxinyin/ev-infrastructure-tool',
+    sourceCode: 'https://github.com/rongxinyin/DF-Assessment-Tool',
     livePreview: '',
   },
   {
-    name: 'Electric Vehicle Infrastrucure Tool',
+    name: 'Electrical Vehicle Charging Infrastructure Planning Tool',
     description:
       'Provides the ability to estimate the requirements for charging infrastructure and the related electrical demands. Developed at Berkeley Lab.',
     stack: ['Javascript', 'Express', 'React', 'Node', 'MaterialUI', 'Python', 'NumPy', 'Pandas'],
