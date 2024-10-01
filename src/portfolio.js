@@ -51,6 +51,15 @@ const projects = [
   },
 ]
 
+const publications = [
+  {
+    title: 'DFAT: A Web-Based Toolkit for Estimating Demand Flexibility in Building-to-Grid Integration',
+    description: 'Web tool for small and medium buildings to assess demand flexibility, estimate electricity usage, and identify ways to cut costs during peak prices.',
+    citation: 'Leong, Michael and Mahanta, Medha and Yin, Clara and Garcia, TJ and Tan, Zach and Prakash, Anand K. and Black, Doug and Yin, Rongxin, DFAT: A Web-Based Toolkit for Estimating Demand Flexibility in Building-to-Grid Integration. Available at SSRN: https://ssrn.com/abstract=4968003 or http://dx.doi.org/10.2139/ssrn.4968003',
+    link: 'https://ssrn.com/abstract=4968003'
+  }
+]
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -79,4 +88,4 @@ const contact = {
   email: 'mtleong@usc.edu',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, publications }
