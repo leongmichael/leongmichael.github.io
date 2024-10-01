@@ -18,6 +18,7 @@ const Publications = () => {
                 href={publication.link}
                 aria-label='publication link'
                 className='link publication__link'
+                target="_blank" 
               >
                 View Publication
               </a>
