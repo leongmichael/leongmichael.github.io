@@ -4,7 +4,7 @@ import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact } from '../../portfolio'
+import { projects, skills, contact, publications } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -27,6 +27,18 @@ const Navbar = () => {
               className='link link--nav'
             >
               Projects
+            </a>
+          </li>
+        ) : null}
+
+        {publications.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#publications'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Publications
             </a>
           </li>
         ) : null}
