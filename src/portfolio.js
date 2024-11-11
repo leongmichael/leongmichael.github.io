@@ -5,7 +5,7 @@ const header = {
 
 const about = {
   name: 'Michael Leong',
-  role: 'Studying Computer Engineering & Computer Science @ USC',
+  role: 'Undergraduate Student @ USC Viterbi',
   description:
     '',
   resume: 'https://leongmichael.github.io/resume/resume.pdf',
