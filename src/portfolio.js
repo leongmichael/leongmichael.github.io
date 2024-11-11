@@ -18,6 +18,14 @@ const about = {
 
 const projects = [
   {
+    name: 'LearnIt',
+    description:
+      'AI-powered video generator for math and physics based on user prompts.',
+    stack: ['Javascript', 'Electron', 'React', 'MaterialUI', 'Python', 'Manim', 'Google Gemini 1.5', 'FastAPI', 'Deepgram'],
+    sourceCode: 'https://github.com/leongmichael/learn-it',
+    livePreview: 'https://github.com/leongmichael/learn-it',
+  },
+  {
     name: 'Canvas Final Grade Calculator',
     description:
       'Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade.',
@@ -65,6 +73,7 @@ const skills = [
   // if there are no skills, Skills section won't show up
   "C++",
   "Express",
+  'Electron',
   "Firebase",
   "Flask",
   "Git",
