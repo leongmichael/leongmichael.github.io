@@ -21,7 +21,7 @@ const projects = [
     name: 'LearnIt',
     description:
       'AI-powered video generator for math and physics based on user prompts.',
-    stack: ['Javascript', 'Electron', 'React', 'MaterialUI', 'Python', 'Manim', 'Google Gemini 1.5', 'FastAPI', 'Deepgram'],
+    stack: ['Javascript', 'Electron', 'React', 'MaterialUI', 'Python', 'Manim', 'Google Gemini 1.5 API', 'FastAPI', 'Deepgram'],
     sourceCode: 'https://github.com/leongmichael/learn-it',
     livePreview: 'https://github.com/leongmichael/learn-it',
   },
