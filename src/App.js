@@ -5,68 +5,15 @@ import {
   Box,
   Container,
   Typography,
-  Grid,
   Link,
-  Card,
-  CardContent,
-  Divider,
-  Avatar,
-  Stack,
-  Button,
   IconButton
 } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-
-
+import Experience from './components/Experience/Experience'
+import Projects from './components/Projects/Projects'
 
 const App = () => {
-  const LogoAvatar = ({ company, color, bgcolor, size = 28 }) => (
-    <Avatar 
-      sx={{ 
-        width: size, 
-        height: size, 
-        bgcolor, 
-        color, 
-        fontSize: size/2,
-        fontWeight: 'bold'
-      }}
-    >
-      {company[0]}
-    </Avatar>
-  );
-  
-  const WorkExperience = ({ logo, company, role, year }) => (
-    <Box sx={{ py: 1.5, borderBottom: '1px dotted #eee' }}>
-      <Grid container alignItems="center" spacing={2}>
-        <Grid item>{logo}</Grid>
-        <Grid item xs>
-          <Typography variant="subtitle1" fontWeight="medium">{company}</Typography>
-          <Typography variant="body2" color="text.secondary">{role}</Typography>
-        </Grid>
-        <Grid item>
-          <Typography variant="body2" color="text.secondary">{year}</Typography>
-        </Grid>
-      </Grid>
-    </Box>
-  );
-  
-  const Project = ({ title, description }) => (
-    <Card variant="outlined" sx={{ height: '100%' }}>
-      <CardContent>
-        <Box display="flex" justifyContent="space-between" alignItems="flex-start">
-          <Typography variant="h6" gutterBottom>{title}</Typography>
-          <IconButton size="small">
-            <OpenInNewIcon fontSize="small" />
-          </IconButton>
-        </Box>
-        <Typography variant="body2" color="text.secondary">
-          {description}
-        </Typography>
-      </CardContent>
-    </Card>
-  );
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
       {/* Header */}
@@ -94,55 +41,12 @@ const App = () => {
         </Typography>
       </Box>
 
-      {/* Work Experience */}
-      <Typography variant="h5" fontWeight="medium" mb={2}>Experience</Typography>
-      <Box mb={4}>
-        <WorkExperience 
-          logo={<LogoAvatar company="R" bgcolor="#6666cc" color="white" />}
-          company="Robot Locomotion and Navigation Dynamics Lab" 
-          role="Research Fellow"
-          year="2025 - Present"
-        />
-        <WorkExperience 
-          logo={<LogoAvatar company="R" bgcolor="black" color="white" />}
-          company="Rocket Propulsion Lab" 
-          role="Avionics Engineer"
-          year="2024 - Present"
-        />
-        <WorkExperience 
-          logo={<LogoAvatar company="B" bgcolor="#ffd700" color="black" />}
-          company="Lawrence Berkeley National Lab" 
-          role="Research Intern, Student Assistant"
-          year="2023 - 2024"
-        />
-      </Box>
+      {/* Work Experience Component */}
+      <Experience />
 
-      {/* Projects */}
-      <Typography variant="h5" fontWeight="medium" mb={2}>Projects</Typography>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
-          <Project 
-            title="Boeing Design Challenge " 
-            description="4th place design pitch at Boeing Design Challenge hosted at USC."
-          />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Project 
-            title="VelocityDraft" 
-            description="Flexible application essay scheduler webapp. Third place in Onehacks III Hackathon."
-          />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Project 
-            title="Canvas Final Grade Calculator" 
-            description="Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade.
-            900+ downloads on Chrome Web Store."
-          />
-
-        </Grid>
-      </Grid>
+      {/* Projects Component */}
+      <Projects />
     </Container>
-
   );
 }
 
