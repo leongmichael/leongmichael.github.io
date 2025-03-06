@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Boeing Design Challenge",
+    "description": "4th place design pitch at Boeing Design Challenge hosted at USC.",
+    "link": "https://docs.google.com/presentation/d/1fWgEQaHaaEG2xw8WcjiTyaGmLq0bPRkfhnVOoUp_zK8/edit?usp=sharing"
+  },
+  {
+    "title": "VelocityDraft",
+    "description": "Flexible application essay scheduler webapp. Third place in Onehacks III Hackathon.",
+    "link": "https://shuklabhay.github.io/velocity-draft/"
+  },
+  {
+    "title": "Canvas Final Grade Calculator",
+    "description": "Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade. 900+ downloads on Chrome Web Store.",
+    "link": "https://chromewebstore.google.com/detail/canvas-final-grade-calcul/dmbbpohkjofcbbibpfjmhobfebgckihm"
+  },
+  {
+    "title": "LearnIt",
+    "description": "AI video generator for math and physics. Powered by Google Gemini.",
+    "link": "https://github.com/leongmichael/learn-it"
+  }
+]
