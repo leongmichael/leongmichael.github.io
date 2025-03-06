@@ -97,22 +97,22 @@ const PersonalWebsite = () => {
       <Typography variant="h5" fontWeight="medium" mb={2}>Work</Typography>
       <Box mb={4}>
         <WorkExperience 
-          logo={<LogoAvatar company="Mercor" bgcolor="#6666cc" color="white" />}
+          logo={<LogoAvatar company="R" bgcolor="#6666cc" color="white" />}
           company="Robot Locomotion and Navigation Dynamics Lab" 
-          role="Researcher"
-          year="2025"
+          role="Research Fellow"
+          year="2025 - Present"
         />
         <WorkExperience 
-          logo={<LogoAvatar company="Atlas" bgcolor="black" color="white" />}
-          company="Atlas" 
-          role="Engineering, AI"
-          year="2024"
+          logo={<LogoAvatar company="R" bgcolor="black" color="white" />}
+          company="Rocket Propulsion Lab" 
+          role="Avionics Engineer"
+          year="2024 - Present"
         />
         <WorkExperience 
-          logo={<LogoAvatar company="Whatnot" bgcolor="#ffd700" color="black" />}
-          company="Whatnot" 
-          role="Design"
-          year="2023"
+          logo={<LogoAvatar company="B" bgcolor="#ffd700" color="black" />}
+          company="Lawrence Berkeley National Lab" 
+          role="Research Intern, Student Assistant"
+          year="2023 - 2024"
         />
       </Box>
 
@@ -121,38 +121,21 @@ const PersonalWebsite = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
           <Project 
-            title="NOX" 
-            description="Next-gen voice assistant. Built structured memory and devtooling."
+            title="Boeing Design Challenge " 
+            description="4th place design pitch at Boeing Design Challenge hosted at USC."
           />
         </Grid>
         <Grid item xs={12} sm={6}>
           <Project 
-            title="Dream" 
-            description="An AI no-code tool for building fully-functional web apps."
+            title="VelocityDraft" 
+            description="Flexible application essay scheduler webapp. Third place in Onehacks III Hackathon."
           />
         </Grid>
         <Grid item xs={12} sm={6}>
           <Project 
-            title="Bloom" 
-            description="Re-imagining personalized learning at scale."
-          />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Project 
-            title="AirDiligence" 
-            description="AI-powered due-diligence for commercial real estate."
-          />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Project 
-            title="Avery" 
-            description="Your personalized AI assistant & companion."
-          />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Project 
-            title="Recollect" 
-            description="The best way to save and share your memories."
+            title="Canvas Final Grade Calculator" 
+            description="Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade.
+            900+ downloads on Chrome Web Store."
           />
         </Grid>
       </Grid>
