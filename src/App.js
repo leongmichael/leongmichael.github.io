@@ -8,21 +8,23 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Publications from './components/Publications/Publications'
+import PersonalWebsite from './components/PersonalWebsite'
 import './App.css'
 
 const App = () => {
-  const [{ themeName }] = useContext(ThemeContext)
+  // const [{ themeName }] = useContext(ThemeContext)
 
   return (
-    <div id='top' className={`${themeName} app`}>
-      <Header />
+    <div id='top'>
+      {/* <Header /> */}
 
       <main>
-        <About />
+        {/* <About />
         <Projects />
         <Publications />
         <Skills />
-        <Contact />
+        <Contact /> */}
+        <PersonalWebsite />
       </main>
 
       <ScrollToTop />
