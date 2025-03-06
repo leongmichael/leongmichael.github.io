@@ -1,6 +1,5 @@
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
-import Footer from './components/Footer/Footer'
 import './App.css'
 import {
   Box,
