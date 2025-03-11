@@ -3,19 +3,17 @@ import { Box, Typography, Grid, Avatar } from '@mui/material';
 import experienceData from './Experience.json';
 
 const Experience = () => {
-  const LogoAvatar = ({ letter, color, bgcolor, size = 28 }) => (
-    <Avatar 
+  const LogoImage = ({ src, size = 28 }) => (
+    <Avatar
+      src={src}
       sx={{ 
         width: size, 
-        height: size, 
-        bgcolor, 
-        color, 
-        fontSize: size/2,
-        fontWeight: 'bold'
+        height: size,
+        // if no image, use a default background color
+        bgcolor: '#eee'
       }}
-    >
-      {letter}
-    </Avatar>
+      alt="Company logo"
+    />
   );
   
   const WorkExperienceItem = ({ logo, company, role, year }) => (
@@ -40,10 +38,8 @@ const Experience = () => {
         <WorkExperienceItem
           key={index}
           logo={
-            <LogoAvatar 
-              letter={experience.logo.letter}
-              bgcolor={experience.logo.bgcolor}
-              color={experience.logo.color}
+            <LogoImage 
+              src={experience.logo.image}
             />
           }
           company={experience.company}

@@ -4,9 +4,7 @@
     "role": "Undergraduate Research Fellow",
     "year": "2025 - Present",
     "logo": {
-      "letter": "R",
-      "bgcolor": "#6666cc",
-      "color": "white"
+      "image": "/images/usc-logo.jpeg"
     }
   },
   {
@@ -14,9 +12,7 @@
     "role": "Avionics Engineer",
     "year": "2024 - Present",
     "logo": {
-      "letter": "R",
-      "bgcolor": "black",
-      "color": "white"
+      "image": "/images/rpl-logo.jpg"
     }
   },
   {
@@ -24,9 +20,7 @@
     "role": "Research Intern, Student Assistant",
     "year": "2023 - 2024",
     "logo": {
-      "letter": "B",
-      "bgcolor": "#ffd700",
-      "color": "black"
+      "image": "/images/lbnl-logo.jpeg" 
     }
   }
 ]
