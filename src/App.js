@@ -12,6 +12,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
+import Publications from './components/Publications/Publications'
 
 const App = () => {
   return (
@@ -54,6 +55,9 @@ const App = () => {
 
       {/* Projects Component */}
       <Projects />
+
+      {/* Publications */}
+      <Publications />
     </Container>
   );
 }
