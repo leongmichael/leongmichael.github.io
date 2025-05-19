@@ -1,8 +1,16 @@
 [
+    {
+    "company": "CA DREAMS (Defense Ready Electronics and Microdevices Superhub)",
+    "role": "Semiconductor Research Intern",
+    "year": "June 2025 - Present",
+    "logo": {
+      "image": "/images/cadreams-logo.png"
+    }
+  },
   {
     "company": "Robot Locomotion and Navigation Dynamics Lab",
     "role": "Undergraduate Research Fellow",
-    "year": "2025 - Present",
+    "year": "January 2025 - Present",
     "logo": {
       "image": "/images/usc-logo.jpeg"
     }
@@ -10,7 +18,7 @@
   {
     "company": "Rocket Propulsion Lab",
     "role": "Avionics Engineer",
-    "year": "2025 - Present",
+    "year": "January 2025 - Present",
     "logo": {
       "image": "/images/rpl-logo.jpg"
     }
@@ -18,7 +26,7 @@
   {
     "company": "Lawrence Berkeley National Lab",
     "role": "Research Intern, Student Researcher",
-    "year": "2023 - 2024",
+    "year": "June 2023 - December 2024",
     "logo": {
       "image": "/images/lbnl-logo.jpeg" 
     }
