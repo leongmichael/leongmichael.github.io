@@ -42,7 +42,7 @@ const App = () => {
       <Box mb={4}>
         <Typography paragraph>
           I'm an undergraduate at USC studying Electrical and Computer Engineering. 
-          My interests range from PCB design, semiconductors, VLSI design, controls, and robotics.
+          My interests range from PCB design, semiconductors, controls, and robotics.
         </Typography>
         
         <Typography paragraph>
