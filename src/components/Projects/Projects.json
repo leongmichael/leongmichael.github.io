@@ -1,22 +1,21 @@
 [
   {
+    "title": "Plant Monitoring System",
+    "bullets": [
+      "Designed a Raspberry Pi 5 Hardware Attached on Top (HAT) to create a complete monitoring solution for an autonomous duckweed growth system, specifically designed for a space environment.",
+      "Integrated various sensors, including temperature, air quality, light, and CO2, along with an infrared camera, using the I2C protocol for data communication."
+    ],
+    "link": "",
+    "hasImages": true
+  },
+
+  {
     "title": "Boeing Design Challenge",
-    "description": "4th place spacecraft design pitch for asteroid sample retrieval in the Boeing Design Challenge hosted at USC.",
-    "link": "https://docs.google.com/presentation/d/e/2PACX-1vTzdC1o-t0sbefYOHfL7Oaku9jjMWIdygON8AY5SgrkrDDwVYgUSrU7vG1Ld61YFF5eeVIf1Bxil-oK/pub?start=false&loop=false&delayms=5000"
-  },
-  {
-    "title": "VelocityDraft",
-    "description": "Flexible application essay scheduler webapp. Third place in Onehacks III Hackathon.",
-    "link": "https://shuklabhay.github.io/velocity-draft/"
-  },
-  {
-    "title": "Canvas Final Grade Calculator",
-    "description": "Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade. 900+ downloads on Chrome Web Store.",
-    "link": "https://chromewebstore.google.com/detail/canvas-final-grade-calcul/dmbbpohkjofcbbibpfjmhobfebgckihm"
-  },
-  {
-    "title": "LearnIt",
-    "description": "AI video generator for math and physics. Powered by Google Gemini.",
-    "link": "https://github.com/leongmichael/learn-it"
+    "bullets": [
+      "Created a design pitch for asteroid sample retrieval in the Boeing Design Challenge hosted at USC.",
+      "Presented design to panel of Boeing engineers; placed 4th overall in competition in which top 5 teams presents designs "
+    ],
+    "link": "https://docs.google.com/presentation/d/e/2PACX-1vTzdC1o-t0sbefYOHfL7Oaku9jjMWIdygON8AY5SgrkrDDwVYgUSrU7vG1Ld61YFF5eeVIf1Bxil-oK/pub?start=false&loop=false&delayms=5000",
+    "hasImages": false
   }
 ]

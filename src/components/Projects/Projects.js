@@ -2,52 +2,96 @@ import React from 'react';
 import { 
   Box, 
   Typography, 
-  Grid, 
   Card, 
   CardContent, 
-  IconButton 
+  Button,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  useTheme,
+  IconButton
 } from '@mui/material';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import projectsData from './Projects.json';
 
 const Projects = () => {
-  const ProjectItem = ({ title, description, link }) => (
-    <Card variant="outlined" sx={{ height: '100%' }}>
-      <CardContent>
-        <Box display="flex" justifyContent="space-between" alignItems="flex-start">
-          <Typography variant="h6" gutterBottom>{title}</Typography>
-          {link && (
-            <IconButton size="small" href={link} target="_blank" rel="noopener noreferrer">
-              <OpenInNewIcon fontSize="small" />
-            </IconButton>
-          )}
-          {!link && (
-            <IconButton size="small" disabled>
+  const theme = useTheme();
+
+  const ProjectCard = ({ project }) => (
+    <Card
+      variant="outlined"
+      sx={{
+        borderRadius: 3,
+        mb: 3,
+        overflow: 'visible'
+      }}
+    >
+      <CardContent sx={{ p: 4 }}>
+        <Box display="flex" justifyContent="space-between" alignItems="flex-start" mb={1}>
+        <Typography variant="h5" fontWeight="medium" mb={0.5}>
+            {project.title}
+          </Typography>
+          {project.link && (
+            <IconButton 
+              size="small" 
+              href={project.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              sx={{ color: theme.palette.text.secondary }}
+            >
               <OpenInNewIcon fontSize="small" />
             </IconButton>
           )}
         </Box>
-        <Typography variant="body2" color="text.secondary">
-          {description}
-        </Typography>
+        
+        <Box sx={{ display: 'flex', gap: 1, alignItems: 'flex-start' }}>
+          <Box sx={{ flex: 1 }}>
+          
+            <List sx={{ p: 0 }}>
+              {project.bullets.map((bullet, index) => (
+                <ListItem key={index} sx={{ p: 0, mb: 1 }}>
+                  <ListItemIcon sx={{ minWidth: 20, mt: 0.5 }}>
+                    <Box
+                      sx={{
+                        width: 6,
+                        height: 6,
+                        borderRadius: '50%',
+                        bgcolor: theme.palette.text.secondary
+                      }}
+                    />
+                  </ListItemIcon>
+                  <ListItemText
+                    primary={
+                      <Typography 
+                        variant="body2" 
+                        sx={{ 
+                          color: theme.palette.text.secondary,
+                          fontSize: '0.9rem',
+                          lineHeight: 1.5
+                        }}
+                      >
+                        {bullet}
+                      </Typography>
+                    }
+                  />
+                </ListItem>
+              ))}
+            </List>
+            
+          </Box>
+        </Box>
       </CardContent>
     </Card>
   );
 
   return (
-    <Box mb={4}>
-      <Typography variant="h5" fontWeight="medium" mb={2}>Projects</Typography>
-      <Grid container spacing={2}>
-        {projectsData.map((project, index) => (
-          <Grid item xs={12} sm={6} key={index}>
-            <ProjectItem
-              title={project.title}
-              description={project.description}
-              link={project.link}
-            />
-          </Grid>
-        ))}
-      </Grid>
+    <Box sx={{ mb: 6 }}>
+      <Typography variant="h5" fontWeight="medium" mb={1}>Projects</Typography>
+      
+      {projectsData.map((project, index) => (
+        <ProjectCard key={index} project={project} />
+      ))}
     </Box>
   );
 };
