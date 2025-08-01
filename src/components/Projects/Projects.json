@@ -21,5 +21,19 @@
     ],
     "link": "https://docs.google.com/presentation/d/e/2PACX-1vTzdC1o-t0sbefYOHfL7Oaku9jjMWIdygON8AY5SgrkrDDwVYgUSrU7vG1Ld61YFF5eeVIf1Bxil-oK/pub?start=false&loop=false&delayms=5000",
     "images": []
+  },
+
+  {
+    "title": "Canvas Final Grade Calculator",
+    "bullets": [
+      "Web extension that fetches your Canvas grade and calculates the final exam score needed for your desired grade.",
+      "Received 900+ downloads on Chrome Web Store."
+    ],
+    "link": "https://chromewebstore.google.com/detail/canvas-final-grade-calcul/dmbbpohkjofcbbibpfjmhobfebgckihm",
+    "images": [
+      "canvas-final-grade-calculator/1.png",
+      "canvas-final-grade-calculator/2.png",
+      "canvas-final-grade-calculator/3.png"
+    ]
   }
 ]

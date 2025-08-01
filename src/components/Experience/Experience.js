@@ -33,7 +33,7 @@ const Experience = () => {
 
   return (
     <Box mb={4}>
-      <Typography variant="h5" fontWeight="medium" mb={2}>Experience</Typography>
+      <Typography variant="h5" fontWeight="medium" mb={0}>Experience</Typography>
       {experienceData.map((experience, index) => (
         <WorkExperienceItem
           key={index}
