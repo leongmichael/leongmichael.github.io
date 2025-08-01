@@ -82,10 +82,20 @@ const Projects = () => {
             )}
           </Box>
           
-          <Box sx={{ display: 'flex', gap: 3, alignItems: 'flex-start' }}>
+          <Box sx={{ 
+            display: 'flex', 
+            gap: 3, 
+            alignItems: 'flex-start',
+            flexDirection: { xs: 'column', sm: 'row' } // Stack vertically only on mobile
+          }}>
             {/* Image Gallery on the left */}
             {imagesLoaded && existingImages.length > 0 && (
-              <Box sx={{ flexShrink: 0 }}>
+              <Box sx={{ 
+                flexShrink: 0,
+                width: { xs: '100%', sm: 'auto' }, // Full width on mobile
+                display: 'flex',
+                justifyContent: { xs: 'center', sm: 'flex-start' } // Center on mobile
+              }}>
                 <Box 
                   sx={{ 
                     width: 250,
@@ -94,37 +104,51 @@ const Projects = () => {
                     overflow: 'hidden',
                     cursor: 'pointer',
                     transition: 'transform 0.2s ease-in-out',
+                    position: 'relative',
                     '&:hover': {
                       transform: 'scale(1.05)'
                     }
                   }}
                   onClick={handleImageClick}
                 >
-                                          <img
-                          src={existingImages[0]}
-                          alt={`${project.title} - Click to view gallery`}
-                          loading="lazy"
-                          style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            borderRadius: '8px'
-                          }}
-                        />
-                </Box>
-                {imagesLoaded && existingImages.length > 1 && (
-                  <Typography 
-                    variant="caption" 
-                    sx={{ 
-                      color: theme.palette.text.secondary,
-                      mt: 1,
-                      display: 'block',
-                      textAlign: 'center'
+                  <img
+                    src={existingImages[0]}
+                    alt={`${project.title} - Click to view gallery`}
+                    loading="lazy"
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                      borderRadius: '8px'
                     }}
-                  >
-                    Click to view {existingImages.length} images
-                  </Typography>
-                )}
+                  />
+                  {imagesLoaded && existingImages.length > 1 && (
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        bottom: 0,
+                        left: 0,
+                        right: 0,
+                        background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
+                        padding: '20px 8px 8px 8px',
+                        borderRadius: '0 0 8px 8px'
+                      }}
+                    >
+                      <Typography 
+                        variant="caption" 
+                        sx={{ 
+                          color: 'white',
+                          display: 'block',
+                          textAlign: 'center',
+                          fontSize: '0.75rem',
+                          fontWeight: 500
+                        }}
+                      >
+                        Click to view {existingImages.length} images
+                      </Typography>
+                    </Box>
+                  )}
+                </Box>
               </Box>
             )}
 
