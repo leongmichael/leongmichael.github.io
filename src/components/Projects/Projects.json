@@ -6,16 +6,20 @@
       "Integrated various sensors, including temperature, air quality, light, and CO2, along with an infrared camera, using the I2C protocol for data communication."
     ],
     "link": "",
-    "imageDirectory": "plant-monitoring-system"
+    "images": [
+      "plant-monitoring-system/1.png",
+      "plant-monitoring-system/2.png",
+      "plant-monitoring-system/3.png"
+    ]
   },
 
   {
-    "title": "Boeing Design Challenge",
+    "title": "Boeing Freshman Design Challenge",
     "bullets": [
-      "Created a design pitch for asteroid sample retrieval in the Boeing Design Challenge hosted at USC.",
-      "Presented design to panel of Boeing engineers; placed 4th overall in which top 5 teams present designs "
+      "Created an aircraft design pitch for asteroid sample retrieval in the Boeing Freshman Design Challenge hosted at USC.",
+      "Presented design to panel of Boeing engineers; placed 4th overall in which top 5 teams present designs."
     ],
     "link": "https://docs.google.com/presentation/d/e/2PACX-1vTzdC1o-t0sbefYOHfL7Oaku9jjMWIdygON8AY5SgrkrDDwVYgUSrU7vG1Ld61YFF5eeVIf1Bxil-oK/pub?start=false&loop=false&delayms=5000",
-    "imageDirectory": ""
+    "images": []
   }
 ]

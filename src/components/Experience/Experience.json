@@ -1,18 +1,27 @@
 [
+  {
+    "company": "Kapadia Group",
+    "role": "Undergraduate Research Assistant",
+    "year": "July 2025 - Present",
+    "logo": {
+      "image": "/images/usc-logo.jpeg"
+    }
+  },
+
     {
     "company": "CA DREAMS (Defense Ready Electronics and Microdevices Superhub)",
     "role": "Nanofabrication Intern",
-    "year": "June 2025 - Present",
+    "year": "June 2025 - August 2025",
     "logo": {
       "image": "/images/cadreams-logo.png"
     }
   },
   {
     "company": "Robot Locomotion and Navigation Dynamics Lab",
-    "role": "Undergraduate Research Fellow",
-    "year": "January 2025 - Present",
+    "role": "Undergraduate Research Assistant",
+    "year": "January 2025 - August 2025",
     "logo": {
-      "image": "/images/usc-logo.jpeg"
+      "image": "/images/roboland.png"
     }
   },
   {

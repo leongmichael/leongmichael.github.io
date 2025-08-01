@@ -23,7 +23,7 @@ const Publications = () => {
 
   return (
     <Box mb={4}>
-      <Typography variant="h5" fontWeight="medium" mb={2}>Publications</Typography>
+      <Typography variant="h5" fontWeight="medium" mb={0}>Publications</Typography>
       {publications.map((pub, index) => (
         <PublicationItem
           key={index}

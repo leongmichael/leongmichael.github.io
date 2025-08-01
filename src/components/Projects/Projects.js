@@ -26,48 +26,17 @@ const Projects = () => {
   const ProjectCard = ({ project }) => {
     const [modalOpen, setModalOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [existingImages, setExistingImages] = useState([]);
-    const [imagesLoaded, setImagesLoaded] = useState(false);
 
-    // Get images from the imageDirectory if it exists
+    // Get images from the project data
     const getImages = () => {
-      if (!project.imageDirectory) return [];
+      if (!project.images || project.images.length === 0) return [];
       
-      // Dynamically generate image paths - assume images are numbered 1.png, 2.png, etc.
-      // We'll try up to 20 images to cover most cases
-      const images = [];
-      for (let i = 1; i <= 20; i++) {
-        const imagePath = `/images/${project.imageDirectory}/${i}.png`;
-        images.push(imagePath);
-      }
-      
-      return images;
+      // Convert relative paths to full paths
+      return project.images.map(imagePath => `/images/${imagePath}`);
     };
 
-    const allImages = getImages();
-
-    // Check which images actually exist
-    React.useEffect(() => {
-      const checkImages = async () => {
-        const existing = [];
-        for (let i = 0; i < allImages.length; i++) {
-          try {
-            const response = await fetch(allImages[i], { method: 'HEAD' });
-            if (response.ok) {
-              existing.push(allImages[i]);
-            }
-          } catch (error) {
-            // Image doesn't exist, skip it
-          }
-        }
-        setExistingImages(existing);
-        setImagesLoaded(true);
-      };
-      
-      if (project.imageDirectory) {
-        checkImages();
-      }
-    }, [project.imageDirectory]);
+    const existingImages = getImages();
+    const imagesLoaded = true; // No need to check existence since we control the data
 
     const handleImageClick = () => {
       setCurrentImageIndex(0);
@@ -163,7 +132,7 @@ const Projects = () => {
             <Box sx={{ flex: 1 }}>
               <List sx={{ p: 0 }}>
                 {project.bullets.map((bullet, index) => (
-                  <ListItem key={index} sx={{ p: 0, mb: 1 }}>
+                  <ListItem key={index} sx={{ p: 0, mb: 0.1 }}>
                     <ListItemIcon sx={{ minWidth: 20, mt: 0.5 }}>
                       <Box
                         sx={{
@@ -180,8 +149,8 @@ const Projects = () => {
                           variant="body2" 
                           sx={{ 
                             color: theme.palette.text.secondary,
-                            fontSize: '0.9rem',
-                            lineHeight: 1.5
+                            fontSize: '1rem',
+                            lineHeight: 1.6
                           }}
                         >
                           {bullet}
