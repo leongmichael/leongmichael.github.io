@@ -6,7 +6,7 @@
       "Integrated various sensors, including temperature, air quality, light, and CO2, along with an infrared camera, using the I2C protocol for data communication."
     ],
     "link": "",
-    "hasImages": true
+    "imageDirectory": "plant-monitoring-system"
   },
 
   {
@@ -16,6 +16,6 @@
       "Presented design to panel of Boeing engineers; placed 4th overall in competition in which top 5 teams presents designs "
     ],
     "link": "https://docs.google.com/presentation/d/e/2PACX-1vTzdC1o-t0sbefYOHfL7Oaku9jjMWIdygON8AY5SgrkrDDwVYgUSrU7vG1Ld61YFF5eeVIf1Bxil-oK/pub?start=false&loop=false&delayms=5000",
-    "hasImages": false
+    "imageDirectory": ""
   }
 ]
