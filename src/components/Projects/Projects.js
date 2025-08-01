@@ -191,12 +191,13 @@ const Projects = () => {
                   right: 8,
                   zIndex: 1,
                   color: 'white',
+                  bgcolor: 'rgba(0, 0, 0, 0.7)',
                   '&:hover': {
-                    bgcolor: 'rgba(0, 0, 0, 0.1)'
+                    bgcolor: 'rgba(0, 0, 0, 0.9)'
                   }
                 }}
               >
-                <CloseIcon />
+                <CloseIcon sx={{ color: 'white' }} />
               </MuiIconButton>
 
                                 {/* Navigation buttons */}
@@ -211,12 +212,13 @@ const Projects = () => {
                       transform: 'translateY(-50%)',
                       zIndex: 1,
                       color: 'white',
+                      bgcolor: 'rgba(0, 0, 0, 0.7)',
                       '&:hover': {
-                        bgcolor: 'rgba(0, 0, 0, 0.1)'
+                        bgcolor: 'rgba(0, 0, 0, 0.9)'
                       }
                     }}
                   >
-                    <NavigateBeforeIcon />
+                    <NavigateBeforeIcon sx={{ color: 'white' }} />
                   </MuiIconButton>
                   <MuiIconButton
                     onClick={handleNextImage}
@@ -227,12 +229,13 @@ const Projects = () => {
                       transform: 'translateY(-50%)',
                       zIndex: 1,
                       color: 'white',
+                      bgcolor: 'rgba(0, 0, 0, 0.7)',
                       '&:hover': {
-                        bgcolor: 'rgba(0, 0, 0, 0.1)'
+                        bgcolor: 'rgba(0, 0, 0, 0.9)'
                       }
                     }}
                   >
-                    <NavigateNextIcon />
+                    <NavigateNextIcon sx={{ color: 'white' }} />
                   </MuiIconButton>
                 </>
               )}
@@ -258,16 +261,20 @@ const Projects = () => {
                         left: '50%',
                         transform: 'translateX(-50%)',
                         px: 2,
-                        py: 1
+                        py: 1,
+                        bgcolor: 'rgba(0, 0, 0, 0.7)',
+                        borderRadius: 1
                       }}
                     >
                       <Typography 
-                        variant="caption" 
+                        variant="body2" 
                         sx={{ 
                           color: 'white',
-                          fontSize: '0.875rem',
-                          fontWeight: 500,
-                          textShadow: '0 1px 2px rgba(0, 0, 0, 0.8)'
+                          fontSize: '0.9rem',
+                          fontWeight: 600,
+                          letterSpacing: '0.5px',
+                          bgcolor: 'transparent',
+                          display: 'inline-block'
                         }}
                       >
                         {currentImageIndex + 1} / {existingImages.length}
