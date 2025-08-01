@@ -36,7 +36,7 @@ const Projects = () => {
       // Dynamically generate image paths - assume images are numbered 1.png, 2.png, etc.
       // We'll try up to 20 images to cover most cases
       const images = [];
-      for (let i = 1; i <= 3; i++) {
+      for (let i = 1; i <= 20; i++) {
         const imagePath = `/images/${project.imageDirectory}/${i}.png`;
         images.push(imagePath);
       }
