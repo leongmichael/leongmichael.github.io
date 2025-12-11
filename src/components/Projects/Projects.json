@@ -3,7 +3,8 @@
     "title": "Plant Monitoring System",
     "bullets": [
       "Designed a Raspberry Pi 5 Hardware Attached on Top (HAT) to create a complete monitoring solution for an autonomous duckweed growth system, specifically designed for a space environment.",
-      "Integrated various sensors, including temperature, air quality, light, and CO2, along with an infrared camera, using the I2C protocol for data communication."
+      "Integrated various sensors, including temperature, air quality, light, and CO2, along with an infrared camera, using the I2C protocol for data communication.",
+      "Developed firmware for the to interface with the I2C sensors and camera, managing real-time data acquisition, calibration, and preliminary data processing"
     ],
     "link": "",
     "images": [
