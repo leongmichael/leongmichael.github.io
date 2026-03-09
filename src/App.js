@@ -39,13 +39,10 @@ const App = () => {
       {/* Bio */}
       <Box mb={4}>
         <Typography paragraph>
-          I'm an undergraduate at USC studying Electrical and Computer Engineering. 
-          My interests range from PCB design, semiconductors, controls, and robotics.
+          Undergraduate at USC studying Electrical and Computer Engineering. 
         </Typography>
         
-        <Typography paragraph>
-          See more on my <Link href="https://leongmichael.github.io/resume/resume.pdf" target="_blank" rel="noopener noreferrer" underline="always">resume</Link> or contact me at <Link href="mailto:mtleong@usc.edu" underline="always">mtleong@usc.edu</Link>.
-        </Typography>
+
       </Box>
 
       {/* Work Experience Component */}
