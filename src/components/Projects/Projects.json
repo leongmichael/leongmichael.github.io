@@ -5,7 +5,6 @@
       "Neural Probe: Neural probes made of deposited Chromium and Gold on a Silicon wafer",
       "Pressure Sensor: Chromium and Gold Pressure Sensors on a Silicon wafer getting wet etched in a beaker of Potassium Hydroxide"
     ],
-    "link": "https://docs.google.com/presentation/d/e/2PACX-1vTzdC1o-t0sbefYOHfL7Oaku9jjMWIdygON8AY5SgrkrDDwVYgUSrU7vG1Ld61YFF5eeVIf1Bxil-oK/pub?start=false&loop=false&delayms=5000",
     "images": ["fab-projects/neuralprobe.jpeg",
       "fab-projects/pressuresensor.jpeg"
     ]
