@@ -1,4 +1,12 @@
-[    {
+[{
+    "company": "Nuro",
+    "role": "Systems Test Engineering Intern",
+    "year": "May 2026 - Present",
+    "logo": {
+      "image": "/images/nuro-logo.png"
+    }
+  },
+{
     "company": "CA DREAMS (Defense Ready Electronics and Microdevices Superhub)",
     "role": "Nanofabrication Intern",
     "year": "June 2025 - August 2025",
@@ -7,17 +15,17 @@
     }
   },
   {
-    "company": "Kapadia Group",
+    "company": "Physical Superintelligence (PSI) Lab",
     "role": "Undergraduate Research Assistant",
-    "year": "July 2025 - Present",
+    "year": "January 2026 - Present",
     "logo": {
-      "image": "/images/usc-logo.jpeg"
+      "image": "/images/psi-logo.jpg"
     }
   },
   {
     "company": "Robot Locomotion and Navigation Dynamics Lab",
     "role": "Undergraduate Research Assistant",
-    "year": "January 2025 - Present",
+    "year": "January 2025 - August 2025",
     "logo": {
       "image": "/images/roboland.png"
     }
