@@ -1,4 +1,16 @@
 [
+     {
+    "title": "Real-Time Audio Spectrum Analyzer",
+    "bullets": [
+      "Designed a 5-module Verilog system on a Xilinx Artix-7 FPGA to perform real-time, hardware-accelerated 64-point streaming FFT processing on incoming audio signals",
+      "Optimized FPGA resource utilization by implementing an L1 magnitude approximation logic and a custom ping-pong FIFO double-buffer, decoupling UART receive timing from processing to prevent data loss",
+      "Architected a tri-device distributed system (Laptop, Raspberry Pi, FPGA) using TCP/IP and high-speed UART (460,800 baud) protocols to stream and analyze live audio data",
+      "Developed a multithreaded Python bridge on a Raspberry Pi utilizing non-blocking queue operations and four daemon threads to synchronize bidirectional data streams and eliminate latency"
+    ],
+        "images": ["spectrum-analyzer/diagram.png", "spectrum-analyzer/graph.png"
+      
+    ]
+  },
     {
     "title": "Fabrication Projects",
     "bullets": [
