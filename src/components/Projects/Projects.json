@@ -11,6 +11,17 @@
       
     ]
   },
+      {
+    "title": "Notch Filter PCB",
+    "bullets": [
+      "Designed, simulated, and prototyped an active Twin-T bandstop filter module to suppress the G-string (196 Hz) of an electric guitar by at least 20 dB while ensuring adjacent string frequencies passed unaffected",
+      "Designed a 4-layer PCB with power/ground planes and top/bottom signal layers",
+      "Parts: Bourns 3296 5k Ω trimmer potentiometers (tuning notch frequency), LM324 op-amp, TC7660 charge pump (dual power rail operation), 9V battery, LED (indicator), passive components (resistors, capacitors)"
+      ],
+        "images": ["notch-filter-pcb/pcb-model.png", "notch-filter-pcb/pcb-real.jpg", "notch-filter-pcb/gain-vs-freq.png"
+      
+    ]
+  }, 
     {
     "title": "Fabrication Projects",
     "bullets": [

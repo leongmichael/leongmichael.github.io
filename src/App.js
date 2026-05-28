@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
       {/* Header */}
-      <Box display="flex" justifyContent="space-between" alignItems="center" mb={4}>
+      <Box display="flex" justifyContent="space-between" alignItems="center" mb={3}>
         <Typography variant="h4" fontWeight="bold">Michael Leong</Typography>
         <Box>
           <IconButton 
@@ -37,9 +37,9 @@ const App = () => {
       </Box>
 
       {/* Bio */}
-      <Box mb={4}>
+      <Box mb={3}>
         <Typography paragraph>
-          Undergraduate at USC studying Electrical and Computer Engineering. 
+          Electrical and Computer Engineering Student at USC
         </Typography>
         
 
