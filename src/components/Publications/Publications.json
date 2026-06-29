@@ -1,4 +1,11 @@
 [
+  {
+    "title": "SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation",
+    "authors": "Wei, Songlin and Ni, Zhenhao and Liu, Jie and Zhao, Zhenyu and Ye, Junjie and Jing, Hongyi and Xia, Junkai and Liu, Xiawei and Leong, Michael and Heng, Liang and Huang, Di and Wang, Yue",
+    "year": 2026,
+    "journal": "arXiv preprint arXiv:2606.08278",
+    "link": "https://arxiv.org/abs/2606.08278"
+  },
     {
       "title": "DFAT: A web-based toolkit for estimating demand flexibility in building-to-grid integration",
       "authors": "Leong, M., Mahanta, M., Yin, C., Garcia, T. J., Tan, Z., Prakash, A. K., Black, D., & Yin, R.",
