@@ -1,7 +1,7 @@
 [{
     "company": "Nuro",
-    "role": "Systems Test Engineering Intern",
-    "year": "May 2026 - Present",
+    "role": "Systems Engineering Intern",
+    "year": "May 2026 - August 2026",
     "logo": {
       "image": "/images/nuro-logo.png"
     }
@@ -28,14 +28,6 @@
     "year": "January 2025 - August 2025",
     "logo": {
       "image": "/images/roboland.png"
-    }
-  },
-  {
-    "company": "Rocket Propulsion Lab",
-    "role": "Avionics Team",
-    "year": "January 2025 - Present",
-    "logo": {
-      "image": "/images/rpl-logo.jpg"
     }
   }
 ]

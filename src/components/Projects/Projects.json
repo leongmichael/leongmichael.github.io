@@ -1,4 +1,16 @@
 [
+       {
+    "title": "Lassie Decision-Making Platform",
+    "bullets": [
+        "Built the path-planning backend for a human–robot interaction research platform, porting a robotics planning stack into a Flask REST API that serves adaptive sampling paths to a React/TypeScript web experiment used in geoscience decision-making studies",
+        "Implemented three robot sampling strategies (baseline, zone coverage, micro-gradient) as approximate Traveling Salesman Problem solvers with NetworkX, including a variant enforcing required edges via graph contraction into supernodes",
+        "Designed a dynamic re-planning system that tracks the robot's traveled points per step, computes the covered region as a convex hull (SciPy/Shapely), prunes already-visited sample points, and regenerates paths from the robot's current position — enabling users to switch sampling strategies mid-experiment without redundant coverage"
+    ],    
+        "link": "https://github.com/QianLabUSC/lassie-decisionmaking/tree/new-paths",
+        "images": ["lassie-decisionmaking/page.png", "lassie-decisionmaking/map.png", "lassie-decisionmaking/heatmap.png"
+      
+    ]
+  },
      {
     "title": "Real-Time Audio Spectrum Analyzer",
     "bullets": [
