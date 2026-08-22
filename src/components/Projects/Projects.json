@@ -13,7 +13,7 @@
   },
 
        {
-    "title": "Demand Flexibility Assessment Tool",
+    "title": "Demand Flexibility Assessment Tool (DFAT)",
     "bullets": [
       "First-authored a peer-reviewed publication in SoftwareX presenting DFAT, an open-source web toolkit for estimating demand flexibility potential of commercial buildings, developed with researchers at Lawrence Berkeley National Laboratory under DOE funding",
       "Built a full-stack MERN application (React, Express, Node.js, MongoDB Atlas) with Material UI and Chart.js that lets facility operators and utilities estimate HVAC demand-shed potential without writing code or running building simulations",
@@ -26,6 +26,25 @@
           "dfat/fig2-basic-calculator-ui.png",
           "dfat/fig3-advanced-calculator-ui.png",
           "dfat/fig6-benchmarking-map.png"
+        ]
+  },
+
+       {
+    "title": "Electric Vehicle Charging Infrastructure Planning Tool (EV-CIPT)",
+    "bullets": [
+      "Led development of EV-CIPT, an open-source web tool for Lawrence Berkeley National Lab that sizes workplace EV charging infrastructure from employee commute surveys and site constraints.",
+      "Full-stack EV charging planner (React, Express, Python) that simulates workplace load and recommends L2/L3 station counts from commute data, adoption rate, and electrical constraints.",
+      "Designed a React / Material UI planner (site info, fleet vs. employee modes, simulation, results, smart charging) with Chart.js and Recharts dashboards for wait time, utilization, peak demand, and load curves.",
+      "Implemented a Python time-step simulation (pandas/NumPy) that models vehicle SoC, FIFO charger queues, and L2/L3 port sweeps at 15-minute resolution over multi-week runs."
+
+
+        ],    
+        "link": "https://github.com/rongxinyin/ev-infrastructure-tool",
+        "images": [
+          "evit/building.png",
+          "evit/employee.png",
+          "evit/results.png",
+          "evit/smart_charging.png"
         ]
   },
      {
