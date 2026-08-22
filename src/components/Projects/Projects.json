@@ -11,6 +11,23 @@
       
     ]
   },
+
+       {
+    "title": "Demand Flexibility Assessment Tool",
+    "bullets": [
+      "First-authored a peer-reviewed publication in SoftwareX presenting DFAT, an open-source web toolkit for estimating demand flexibility potential of commercial buildings, developed with researchers at Lawrence Berkeley National Laboratory under DOE funding",
+      "Built a full-stack MERN application (React, Express, Node.js, MongoDB Atlas) with Material UI and Chart.js that lets facility operators and utilities estimate HVAC demand-shed potential without writing code or running building simulations",
+      "Designed a database of pre-computed regression models mapping outdoor air temperature to demand-shed intensity — derived from EnergyPlus simulations across building types, vintages, and climate zones — enabling instant estimates that previously required minutes-long server-side simulation runs",
+      "Developed an interactive benchmarking map of retail and office field sites across the U.S., letting users compare real demand response event performance (shed intensity, OAT, event metrics) across regions"
+        ],    
+        "link": "https://github.com/rongxinyin/DF-Assessment-Tool",
+        "images": [
+          "dfat/fig1-mern-architecture.png",
+          "dfat/fig2-basic-calculator-ui.png",
+          "dfat/fig3-advanced-calculator-ui.png",
+          "dfat/fig6-benchmarking-map.png"
+        ]
+  },
      {
     "title": "Real-Time Audio Spectrum Analyzer",
     "bullets": [
