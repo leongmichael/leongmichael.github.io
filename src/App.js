@@ -84,11 +84,11 @@ const App = () => {
       {/* Work Experience Component */}
       <Experience />
 
-      {/* Projects Component */}
-      <Projects />
-
-      {/* Publications */}
+      {/* Research */}
       <Publications />
+
+      {/* Projects */}
+      <Projects />
     </Container>
   );
 }

@@ -6,7 +6,11 @@
     "journal": "CoRL 2026",
     "arxiv": "https://arxiv.org/abs/2606.08278",
     "website": "https://psi-lab.ai/SIMPLE/",
-    "github": "https://github.com/physical-superintelligence-lab/SIMPLE"
+    "github": "https://github.com/physical-superintelligence-lab/SIMPLE",
+    "images": [
+      "simple/robot-sofa.webp",
+      "simple/scenes.png"
+    ]
   },
   {
     "title": "DFAT: A web-based toolkit for estimating demand flexibility in building-to-grid integration",
@@ -14,6 +18,17 @@
     "year": 2025,
     "journal": "SoftwareX, 30, 102131",
     "paper": "https://www.sciencedirect.com/science/article/pii/S2352711025000986",
-    "github": "https://github.com/rongxinyin/DF-Assessment-Tool"
+    "github": "https://github.com/rongxinyin/DF-Assessment-Tool",
+    "bullets": [
+      "Built a full-stack MERN application (React, Express, Node.js, MongoDB Atlas) with Material UI and Chart.js that lets facility operators and utilities estimate HVAC demand-shed potential without writing code or running building simulations",
+      "Designed a database of pre-computed regression models mapping outdoor air temperature to demand-shed intensity — derived from EnergyPlus simulations across building types, vintages, and climate zones — enabling instant estimates that previously required minutes-long server-side simulation runs",
+      "Developed an interactive benchmarking map of retail and office field sites across the U.S., letting users compare real demand response event performance (shed intensity, OAT, event metrics) across regions"
+    ],
+    "images": [
+      "dfat/fig2-basic-calculator-ui.png",
+      "dfat/fig3-advanced-calculator-ui.png",
+      "dfat/fig6-benchmarking-map.png",
+      "dfat/fig1-mern-architecture.png"
+    ]
   }
 ]
