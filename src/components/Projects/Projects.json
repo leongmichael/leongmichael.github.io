@@ -54,13 +54,16 @@
     ]
   }, 
     {
-    "title": "Fabrication Projects",
+    "title": "Nanofabrication Projects",
     "bullets": [
       "Neural Probe: Neural probes made of deposited Chromium and Gold on a Silicon wafer",
-      "Pressure Sensor: Chromium and Gold Pressure Sensors on a Silicon wafer getting wet etched in a beaker of Potassium Hydroxide"
+      "Pressure Sensor: Chromium and Gold Pressure Sensors on a Silicon wafer getting wet etched in a beaker of Potassium Hydroxide",
+      "Art Wafer: Patterned 560 nm silicon dioxide on 5-inch Si wafers through AZ 1518 photolithography, mask-aligned exposure, and buffered oxide etch"
     ],
-    "images": ["fab-projects/neuralprobe.jpeg",
-      "fab-projects/pressuresensor.jpeg"
+    "images": [
+      "fab-projects/neuralprobe.jpeg",
+      "fab-projects/pressuresensor.jpeg",
+      "fab-projects/artwafer.jpg"
     ]
   },
 
