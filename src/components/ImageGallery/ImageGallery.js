@@ -142,14 +142,25 @@ const ImageGallery = ({ images = [], title = '', variant = 'tile' }) => {
       <Modal
         open={modalOpen}
         onClose={() => setModalOpen(false)}
-        sx={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          p: 2,
-        }}
+        hideBackdrop
+        sx={{ backgroundColor: 'transparent !important' }}
       >
         <Box
+          onClick={() => setModalOpen(false)}
+          sx={{
+            position: 'fixed',
+            inset: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            p: 2,
+            backgroundColor: 'rgba(0, 0, 0, 0.4) !important',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
+          }}
+        >
+        <Box
+          onClick={(event) => event.stopPropagation()}
           sx={{
             position: 'relative',
             maxWidth: '90vw',
@@ -230,6 +241,7 @@ const ImageGallery = ({ images = [], title = '', variant = 'tile' }) => {
               </Typography>
             </Box>
           )}
+        </Box>
         </Box>
       </Modal>
     </>
