@@ -13,9 +13,10 @@ import publications from './Publications.json';
 import ImageGallery from '../ImageGallery/ImageGallery';
 
 const LINK_FIELDS = [
-  ['arxiv', 'arxiv'],
+  ['arxiv', 'paper'],
   ['paper', 'paper'],
   ['pdf', 'pdf'],
+  ['poster', 'poster'],
   ['website', 'website'],
   ['site', 'site'],
   ['github', 'github'],
