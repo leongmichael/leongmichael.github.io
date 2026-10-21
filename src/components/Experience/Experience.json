@@ -1,4 +1,5 @@
-[{
+[
+  {
     "company": "Nuro",
     "role": "Systems Engineering Intern",
     "year": "May 2026 - August 2026",
@@ -6,7 +7,7 @@
       "image": "/images/nuro-logo.png"
     }
   },
-{
+  {
     "company": "CA DREAMS (Defense Ready Electronics and Microdevices Superhub)",
     "role": "REU Intern",
     "year": "June 2025 - August 2025",
@@ -14,14 +15,6 @@
       "image": "/images/cadreams-logo.png"
     }
   },
-{
-    "company": "Lawrence Berkeley National Laboratory (LBNL)",
-    "role": "Research Intern",
-    "year": "June 2023 - December 2024",
-    "logo": {
-      "image": "/images/lbnl-logo.jpeg"
-    }
-  },  
   {
     "company": "Physical Superintelligence (PSI) Lab",
     "role": "Undergraduate Researcher",
@@ -36,6 +29,14 @@
     "year": "January 2025 - August 2025",
     "logo": {
       "image": "/images/roboland.png"
+    }
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory (LBNL)",
+    "role": "Research Intern",
+    "year": "June 2023 - December 2024",
+    "logo": {
+      "image": "/images/lbnl-logo.jpeg"
     }
   }
 ]
