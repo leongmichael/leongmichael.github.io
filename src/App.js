@@ -12,29 +12,30 @@ import {
 } from '@mui/material'
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined'
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined'
+import MailIcon from '@mui/icons-material/Mail'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
 import Publications from './components/Publications/Publications'
 import { ThemeContext } from './contexts/theme'
 
-const HeaderLink = ({ href, children }) => (
-  <Typography
+const HeaderIconLink = ({ href, label, children }) => (
+  <Box
     component="a"
     href={href}
     target={href.startsWith('mailto:') ? undefined : '_blank'}
     rel={href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+    aria-label={label}
     sx={{
-      fontFamily: 'inherit',
-      fontSize: '1.125rem',
-      fontWeight: 400,
-      letterSpacing: 'inherit',
-      color: 'text.secondary',
-      textDecoration: 'underline',
-      textUnderlineOffset: '4px',
+      color: 'inherit',
+      display: 'inline-flex',
+      lineHeight: 0,
+      '&:hover': { opacity: 0.7 },
     }}
   >
     {children}
-  </Typography>
+  </Box>
 )
 
 const Badge = ({ children }) => (
@@ -108,10 +109,24 @@ const App = () => {
             </IconButton>
           </Box>
           <Box display="flex" justifyContent="space-between" alignItems="center" gap={2} flexWrap="wrap">
-            <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 2.5 }}>
-              <HeaderLink href="mailto:mtleong@usc.edu">Email</HeaderLink>
-              <HeaderLink href="https://github.com/leongmichael">GitHub</HeaderLink>
-              <HeaderLink href="https://www.linkedin.com/in/m-leong/">LinkedIn</HeaderLink>
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: 1.75,
+                color: themeName === 'dark' ? '#fff' : '#000',
+              }}
+            >
+              <HeaderIconLink href="mailto:mtleong@usc.edu" label="Email">
+                <MailIcon sx={{ fontSize: 28 }} />
+              </HeaderIconLink>
+              <HeaderIconLink href="https://github.com/leongmichael" label="GitHub">
+                <GitHubIcon sx={{ fontSize: 28 }} />
+              </HeaderIconLink>
+              <HeaderIconLink href="https://www.linkedin.com/in/m-leong/" label="LinkedIn">
+                <LinkedInIcon sx={{ fontSize: 28 }} />
+              </HeaderIconLink>
             </Box>
             <Box
               sx={{
